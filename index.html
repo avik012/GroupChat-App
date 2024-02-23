@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>groupChat App-Real time chat application </title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+</head>
+<body>
+    <nav>
+        <img src="Group-chat.png" width="70px" height="70px" alt="logo">
+        <h1>Group Chat application</h1>
+    </nav>
+    
+    <button id="addToChat" title="Please click me to enter in Group Chat">Enter to Chat</button>
+    <div class="chatBox">
+        <div id="chatContainer">
+            <div class="message left">Umesh: Hii kesse ho</div>
+            <div class="message right">You: Badiya</div>
+        </div>
+    </div>
+
+    <form id="sendContainer" >
+        <div class="formContainer">
+            <input disabled id="inputMsg" type="text">
+            <button disabled class="btnSend" type="submit">Send</button>
+        </div>
+    </form>
+</body>
+</html>

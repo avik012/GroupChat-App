@@ -1,0 +1,73 @@
+body{
+    background-image: linear-gradient(white,rgb(109,39,239));
+    font-family: math;
+    font-size: 20px;
+}
+nav{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin: 5px 0;
+}
+#addToChat{
+    display: block;
+    margin: 5px auto;
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: cornflowerblue;
+    cursor: pointer;
+}
+.chatBox{
+    max-width: 900px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    height: 65vh;
+    overflow-y: auto;
+    padding-bottom: 5px;
+
+
+}
+.message{
+    border: 1px solid black;
+    background-color: rgb(206, 203, 203);
+    margin: 10px;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+form{
+    margin: 10px auto;
+    max-width: 900px;
+}
+.formContainer{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    width: 90%;
+    height: 35px;
+    margin: 0 10px;
+    border: 1px solid;
+    border-radius: 8px;
+    font-size: 21px;
+    font-family: math;
+}
+.btnSend{
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
